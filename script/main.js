@@ -305,6 +305,13 @@ const animationTimeline = () => {
 // Run fetch and animation in sequence
 fetchData();
 
+var myCanvas = document.createElement('canvas');
+document.body.appendChild(myCanvas);
+
+confetti.create(myCanvas, {
+  resize: true,
+  useWorker: true
+});
 
 var end = Date.now() + (15 * 1000);
 
