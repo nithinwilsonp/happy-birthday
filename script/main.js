@@ -313,7 +313,7 @@ confetti.create(myCanvas, {
   useWorker: true
 });
 
-var end = Date.now() + (15 * 1000);
+var end = Date.now() + (300 * 1000);
 
 // go Buckeyes!
 var colors = ['#bb0000', '#ffffff'];
