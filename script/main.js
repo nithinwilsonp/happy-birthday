@@ -299,6 +299,7 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     tl.restart();
+    var end = Date.now() + (30 * 1000);
     (function frame() {
   confetti({
     particleCount: 2,
