@@ -299,7 +299,7 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     tl.restart();
-    var end = Date.now() + (30 * 1000);
+    var end = Date.now() + (31 * 1000);
     (function frame() {
   confetti({
     particleCount: 2,
@@ -334,7 +334,7 @@ confetti.create(myCanvas, {
   useWorker: true
 });
 
-var end = Date.now() + (30 * 1000);
+var end = Date.now() + (31 * 1000);
 
 // go Buckeyes!
 var colors = ['#bb0000', '#ffffff'];
