@@ -232,6 +232,11 @@ body {
   cursor: pointer;
 }
 
+canvas {
+  position:absolute;
+  top:0;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
