@@ -237,6 +237,11 @@ canvas {
   top:0;
 }
 
+.thats {
+  color: #16749a;
+  font-weight: 500!important;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
